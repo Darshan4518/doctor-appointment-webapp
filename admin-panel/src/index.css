@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+.dropzone {
+  @apply border-2 border-dashed p-4 mb-4 cursor-pointer;
+}
